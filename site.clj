@@ -6,17 +6,12 @@
    [:head
     [:meta {:charset "utf-8"}]
     [:meta {:name "viewport" :content "width=device-width, initial-scale=1.0"}]
-    [:title "Titel"]]
+    [:title "Sumthing"]]
    [:body
-    [:div#main
+    [:main#main
      content]]])
 
 ;; -----------------------------------------------------------------------------
-
-;; Vercel
-;; Deployt statische Seiten aus /public
-;; Deployt Lambdas aus /api
-;; Wir wollen einen Endpunkt /api/sum
 
 (defn index-page []
   (base
