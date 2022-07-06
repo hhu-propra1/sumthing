@@ -9,12 +9,10 @@ calculation.
 
 ### Frontend
 
-If the frontend changes, use babashka to build a new html file:
+Develop the frontend with babashka. Edit `site.clj` and then generate the html
+file via REPL or with this command:
 
     bb site.clj
-
-If you start and connect to a babashka REPL, the html file is automatically
-generated when you evaluate the file.
 
 ### Backend
 
